@@ -8,7 +8,7 @@ import './App.css';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
+
 
 
 class App extends React.Component {
@@ -20,19 +20,15 @@ class App extends React.Component {
       headerLinks: [
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
-        { title: 'Contact', path: '/contact' }
+     
       ],
       home: {
-        title: 'Be Relentless',
-        subTitle: 'Projects the make a difference',
+        title: "Kyle's portfolio",
         text: 'Checkout my projects below'
       },
       about: {
         title: 'About Me'
       },
-      contact: {
-        title: 'Let\'s Talk'
-      }
     }
   }
 
