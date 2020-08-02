@@ -5,6 +5,7 @@ import Card from '../components/card';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class Carousel extends React.Component {
 
@@ -85,8 +86,10 @@ class Carousel extends React.Component {
 
     makeItems = (items) => {
         return items.map(item => {
-            return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
-        })
+            return <Col md={4}>
+                <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id}/>
+                </Col>
+            })
     }
 
 
