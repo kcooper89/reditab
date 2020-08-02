@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
 
-import Footer from './components/Footer';
+import Footer from './components/footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 
@@ -16,15 +16,15 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: 'Garrett Love',
+      title: 'Kyle Cooper ',
       headerLinks: [
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
      
       ],
       home: {
-        title: "Kyle's portfolio",
-        text: 'Checkout my projects below'
+        title: "Portfolio",
+        text: 'Checkout my projects below!'
       },
       about: {
         title: 'About Me'
@@ -37,8 +37,8 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Garrett Love</Navbar.Brand>
+          <Navbar className="border-bottom header" bg="transparent" expand="lg">
+            <Navbar.Brand>Kyle Cooper</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">

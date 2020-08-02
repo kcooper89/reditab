@@ -1,3 +1,10 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
 .App {
   text-align: center;
 }
@@ -31,3 +38,32 @@
     transform: rotate(360deg);
   }
 }
+
+.mt-5 {
+  background-color: darkgray;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Architects Daughter', cursive;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.header {
+  background-color: darkgray !important;
+}
+
+.profile-pic {
+  height: 250px;
+  width: 275px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
+
+.navbar-brand, .nav-link {
+  font-family: 'Architects Daughter', cursive;
+  color: white !important;
+  font-size: 20px;
+}
+

@@ -1,2 +1,0 @@
-# reditab
-React Portfolio Homework

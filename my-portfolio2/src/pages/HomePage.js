@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Hero from '../components/Hero';
-import Carousel from '../components/Carousel';
+import Hero from '../components/hero';
+import Carousel from '../components/carousel';
 
 function HomePage(props) {
 

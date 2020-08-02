@@ -1,6 +1,6 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import Content from '../components/Content';
+import Hero from '../components/hero';
+import Content from '../components/content';
 
 function AboutPage(props) {
 
@@ -8,16 +8,24 @@ function AboutPage(props) {
         <div>
             <Hero title={props.title} />
 
+            
+
             <Content>
+            <img className='profile-pic' alt='profile-pic' src='./profile-pic.jpg'/>
+
+
             <p>Hello, My name is Kyle.</p>
 
             <p>I have just completed a Full Stack Web Development course with Rutgers University.</p>
 
             <p>I'm constantly learning new things. currently those things include gaining more experience with MongoDB, React, Express JS, and Node JS</p>
 
-            <p>My latest project, </p>
+            <p>My latest project, you can find right HERE</p>
 
-            <p></p>
+            <a href='./kyle-resume.docx'>Download my Resume!</a>
+            <br/>
+
+            <a href='https://github.com/kcooper89'>Check out my Github!</a>
             </Content>
         </div>
     );
